@@ -37,9 +37,9 @@ public class Square : GraphicObject
     public override string Name => "Square";
 }
 
-public static class Demo
+public static class GeometricDemo
 {
-    public static void CompositeStart(string[] args)
+    public static void CompositeGeometricMain(string[] args)
     {
         var drawing = new GraphicObject { Name = "My Drawing" };
         drawing.Children.Add(new Square { Color = "Red" });

@@ -6,6 +6,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Demo.CompositeStart(args);
+        GeometricDemo.CompositeGeometricMain(args);
     }
 }
