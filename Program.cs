@@ -1,9 +1,11 @@
-﻿namespace Udemy_Learnings;
+﻿using Udemy_Learnings.Source.DesignPatterns.Structural.Composite.Pattern;
+
+namespace Udemy_Learnings;
 
 internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Demo.CompositeStart(args);
     }
 }
